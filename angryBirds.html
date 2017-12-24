@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <title>angry birds</title>
+  <link type="text/css" rel="stylesheet" href="css/angryBirds.css">
+  <link type="image/png" rel="icon" href="images/redAngry.png" sizes="any">
+  <script src="js/angryBird.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/angryBirdsController.js"></script>
+</head>
+<body onkeydown="move(event)">
+  <img id="background" src="images/background.png">
+<p id="allMango">
+  <img id="mango6" src="images/mango.png">
+  <img id="mango5" src="images/mango.png">
+  <img id="mango4" src="images/mango.png">
+  <img id="mango3" src="images/mango.png">
+  <img id="mango2" src="images/mango.png">
+  <img id="mango1" src="images/mango.png">
+</p>
+  <img id="redAngry" src="images/redAngry.png">
+  <img id="youWin" src="images/youWin.gif">
+  <a id="retry" href="index.html"><img src="images/retry.png"></a>
+  <audio id="voice">
+    <source src="audios/angryBirds.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="collision">
+    <source src="audios/collision.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="move">
+    <source src="audios/move.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="winning">
+    <source src="audios/winning.mp3" type="audio/mpeg">
+  </audio>
+</body>
+</html>
